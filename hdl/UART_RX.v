@@ -1,6 +1,6 @@
 // UART receiver receives 8 bits serial data one start bit, and one stop bit, then convert them into parallel data.
 // No parity bit.
-// When receive is complete, o_re_dv will be driven high for one clock cycle.
+// When receive is complete, o_RX_DV will be driven high for one clock cycle.
 
 // CLKS_PER_BIT = (clock frequency / Frequency of UART)
 // 25 MHz / 115200 = 217
@@ -28,4 +28,90 @@ module UART_RX
 	reg [2:0] r_SM_Main = 0;
 	reg r_RX_DV = 0;
 
-	
+	always @ (posedge i_Clock)
+	begin
+		case (r_SM_Main)
+			IDLE :
+			begin
+				r_Clock_Count <= 0;
+				r_Bit_Index <= 0;
+				r_RX_DV <= 0;
+
+				if (i_RX_Serial == 0)
+					r_SM_Main <= RX_START_BIT;
+				else
+					r_SM_Main <= IDLE;
+			end
+
+			RX_START_BIT :
+			begin
+				if (r_Clock_Count < (CLKS_PER_BIT - 1) / 2)
+					begin
+						r_Clock_Count <= r_Clock_Count + 1;
+						r_SM_Main <= RX_START_BIT;
+					end
+				else
+					begin
+						if (i_RX_Serial == 0)
+							begin
+								r_Clock_Count <= 0;
+								r_SM_Main <= RX_DATA_BITS;
+							end
+						else
+							r_SM_Main <= IDLE;
+					end
+			end
+
+			RX_DATA_BITS :
+			begin
+				if (r_Clock_Count < CLKS_PER_BIT - 1)
+					begin
+						r_Clock_Count <= r_Clock_Count + 1;
+						r_SM_Main <= RX_DATA_BITS;
+					end
+				else
+					begin
+						r_RX_Byte[r_Bit_Index] <= i_RX_Serial;
+						r_Clock_Count <=0;
+						if (r_Bit_Index < 7)
+							begin
+								r_Bit_Index <= r_Bit_Index + 1;
+								r_SM_Main <= RX_DATA_BITS;
+							end
+						else
+							begin
+								r_Bit_Index <= 0;
+								r_SM_Main <= RX_STOP_BIT;
+							end
+					end
+
+			end
+
+			RX_STOP_BIT :
+			begin
+				if (r_Clock_Count < CLKS_PER_BIT - 1)
+				begin
+					r_Clock_Count <= r_Clock_Count + 1;
+					r_SM_Main <= RX_STOP_BIT;
+				end
+				else
+				begin
+					r_Clock_Count <= 0;
+					r_RX_DV <= 1;
+					r_SM_Main <=CLEANUP;
+				end
+			end
+
+			CLEANUP :
+			begin
+				// r_RX_DV <= 0;
+				// r_Bit_Index <= 0;
+				r_SM_Main <= IDLE;
+			end
+		endcase
+	end
+
+	assign o_RX_DV = r_RX_DV;
+	assign o_RX_Byte = r_RX_Byte;
+
+endmodule
