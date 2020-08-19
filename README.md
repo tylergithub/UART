@@ -11,3 +11,11 @@ UART Configuration Parameters (Common setting):
 	Stop Bits (1)
 	Flow Control (None)
 
+
+UART Receiver data flow:
+
+![Image of Yaktocat](https://github.com/tylergithub/UART/blob/master/data_flow.PNG)
+
+Simulation result:
+
+![Image of Yaktocat](https://github.com/tylergithub/UART/blob/master/UART_RX_simulation.PNG)
