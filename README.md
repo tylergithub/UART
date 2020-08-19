@@ -1,5 +1,7 @@
 # UART
- FPGA receives data through UART Receiver then display the received data on the 7-segment-display.
+This is a project introduced by Nandland.com, all code in this repository were developed from scratch by myself.
+
+FPGA receives data through UART Receiver then display the received data on the 7-segment-display.
 
 
 UART(Serial Port/RS-232 Interface/COM Port) is one of the simplest FPGA communication methods.
