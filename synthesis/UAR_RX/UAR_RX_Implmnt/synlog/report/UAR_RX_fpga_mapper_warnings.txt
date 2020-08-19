@@ -1,0 +1,8 @@
+@W: FA239 :"f:\go_board\projects\uart\hdl\display_7_seg.v":16:2:16:5|ROM seg_2_inst.r_Hex_Encoding[6:0] (in view: work.UART_RX_7Seg_top(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"f:\go_board\projects\uart\hdl\display_7_seg.v":16:2:16:5|ROM seg_1_inst.r_Hex_Encoding[6:0] (in view: work.UART_RX_7Seg_top(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"f:\go_board\projects\uart\hdl\display_7_seg.v":16:2:16:5|ROM seg_2_inst.r_Hex_Encoding[6:0] (in view: work.UART_RX_7Seg_top(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"f:\go_board\projects\uart\hdl\display_7_seg.v":16:2:16:5|ROM seg_1_inst.r_Hex_Encoding[6:0] (in view: work.UART_RX_7Seg_top(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FX1039 :"f:\go_board\projects\uart\hdl\uart_rx.v":31:1:31:6|User-specified initial value defined for instance uart_inst.r_Clock_Count[7:0] is being ignored. 
+@W: FX1039 :"f:\go_board\projects\uart\hdl\uart_rx.v":31:1:31:6|User-specified initial value defined for instance uart_inst.r_SM_Main[2:0] is being ignored. 
+@W: FX1039 :"f:\go_board\projects\uart\hdl\uart_rx.v":31:1:31:6|User-specified initial value defined for instance uart_inst.r_Bit_Index[2:0] is being ignored. 
+@W: FX1039 :"f:\go_board\projects\uart\hdl\uart_rx.v":31:1:31:6|User-specified initial value defined for instance uart_inst.r_RX_Byte[7:0] is being ignored. 

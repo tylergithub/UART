@@ -1,0 +1,16 @@
+Selecting top level module UART_RX_7Seg_top
+@N: CG364 :"F:\go_board\projects\UART\hdl\UART_RX.v":9:7:9:13|Synthesizing module UART_RX in library work.
+
+	CLKS_PER_BIT=32'b00000000000000000000000011011001
+	IDLE=3'b000
+	RX_START_BIT=3'b001
+	RX_DATA_BITS=3'b010
+	RX_STOP_BIT=3'b011
+	CLEANUP=3'b100
+   Generated name = UART_RX_217s_0_1_2_3_4
+
+@N: CG364 :"F:\go_board\projects\UART\hdl\Display_7_Seg.v":2:7:2:19|Synthesizing module Display_7_Seg in library work.
+
+@N: CG364 :"F:\go_board\projects\UART\hdl\UART_RX_7Seg_Top.v":1:7:1:22|Synthesizing module UART_RX_7Seg_top in library work.
+
+@N: CL201 :"F:\go_board\projects\UART\hdl\UART_RX.v":31:1:31:6|Trying to extract state machine for register r_SM_Main.

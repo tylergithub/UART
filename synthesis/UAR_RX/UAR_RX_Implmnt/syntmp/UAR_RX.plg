@@ -1,0 +1,12 @@
+@P:  Worst Slack : 27.837
+@P:  i_Clk - Estimated Frequency : 82.2 MHz
+@P:  i_Clk - Requested Frequency : 25.0 MHz
+@P:  i_Clk - Estimated Period : 12.163
+@P:  i_Clk - Requested Period : 40.000
+@P:  i_Clk - Slack : 27.837
+@P: UART_RX_7Seg_top Part : ice40hx1kvq100
+@P: UART_RX_7Seg_top I/O primitives : 16
+@P: UART_RX_7Seg_top I/O Register bits : 0
+@P: UART_RX_7Seg_top Register bits (Non I/O) : 22 (1%)
+@P: UART_RX_7Seg_top Total Luts : 62 (4%)
+@P:  CPU Time : 0h:00m:00s

@@ -1,0 +1,2 @@
+@E: CS165 :"F:\go_board\projects\UART\hdl\UART_RX_7Seg_Top.v":32:13:32:25|Expecting wire for output connection
+

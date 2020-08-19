@@ -1,0 +1,3 @@
+@W: CS263 :"F:\go_board\projects\UART\hdl\UART_RX_7Seg_Top.v":28:15:28:23|Port-width mismatch for port o_RX_Byte. The port definition is 8 bits, but the actual port connection bit width is 1. Adjust either the definition or the instantiation of this port.
+@W: CS100 :"F:\go_board\projects\UART\hdl\UART_RX_7Seg_Top.v":31:22:31:22|Indexing into scalar - assuming [0:0]
+

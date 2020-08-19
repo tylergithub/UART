@@ -1,0 +1,501 @@
+<html><body><samp><pre>
+<!@TC:1597862755>
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2017.08\synpbase
+#OS: Windows 8 6.2
+#Hostname: RYZENBUILD
+
+# Wed Aug 19 11:45:55 2020
+
+#Implementation: UAR_RX_Implmnt
+
+<a name=compilerReport1></a>Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1597862755> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+<a name=compilerReport2></a>Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1597862755> | Running in 64-bit mode 
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2017.08\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"F:\go_board\projects\UART\hdl\Display_7_Seg.v" (library work)
+@I::"F:\go_board\projects\UART\hdl\UART_RX.v" (library work)
+@I::"F:\go_board\projects\UART\hdl\UART_RX_7Seg_Top.v" (library work)
+Verilog syntax check successful!
+File F:\go_board\projects\UART\hdl\Display_7_Seg.v changed - recompiling
+Selecting top level module UART_RX_7Seg_top
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\go_board\projects\UART\hdl\UART_RX.v:9:7:9:14:@N:CG364:@XP_MSG">UART_RX.v(9)</a><!@TM:1597862755> | Synthesizing module UART_RX in library work.
+
+	CLKS_PER_BIT=32'b00000000000000000000000011011001
+	IDLE=3'b000
+	RX_START_BIT=3'b001
+	RX_DATA_BITS=3'b010
+	RX_STOP_BIT=3'b011
+	CLEANUP=3'b100
+   Generated name = UART_RX_217s_0_1_2_3_4
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\go_board\projects\UART\hdl\Display_7_Seg.v:2:7:2:20:@N:CG364:@XP_MSG">Display_7_Seg.v(2)</a><!@TM:1597862755> | Synthesizing module Display_7_Seg in library work.
+
+@N:<a href="@N:CG364:@XP_HELP">CG364</a> : <a href="F:\go_board\projects\UART\hdl\UART_RX_7Seg_Top.v:1:7:1:23:@N:CG364:@XP_MSG">UART_RX_7Seg_Top.v(1)</a><!@TM:1597862755> | Synthesizing module UART_RX_7Seg_top in library work.
+
+@N:<a href="@N:CL201:@XP_HELP">CL201</a> : <a href="F:\go_board\projects\UART\hdl\UART_RX.v:31:1:31:7:@N:CL201:@XP_MSG">UART_RX.v(31)</a><!@TM:1597862755> | Trying to extract state machine for register r_SM_Main.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Aug 19 11:45:55 2020
+
+###########################################################]
+<a name=compilerReport3></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1597862755> | Running in 64-bit mode 
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="F:\go_board\projects\UART\hdl\UART_RX_7Seg_Top.v:1:7:1:23:@N:NF107:@XP_MSG">UART_RX_7Seg_Top.v(1)</a><!@TM:1597862755> | Selected library: work cell: UART_RX_7Seg_top view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="F:\go_board\projects\UART\hdl\UART_RX_7Seg_Top.v:1:7:1:23:@N:NF107:@XP_MSG">UART_RX_7Seg_Top.v(1)</a><!@TM:1597862755> | Selected library: work cell: UART_RX_7Seg_top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Aug 19 11:45:55 2020
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Aug 19 11:45:55 2020
+
+###########################################################]
+<a name=compilerReport4></a>Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016</a>
+@N: : <!@TM:1597862756> | Running in 64-bit mode 
+File F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\synwork\UAR_RX_comp.srs changed - recompiling
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="F:\go_board\projects\UART\hdl\UART_RX_7Seg_Top.v:1:7:1:23:@N:NF107:@XP_MSG">UART_RX_7Seg_Top.v(1)</a><!@TM:1597862756> | Selected library: work cell: UART_RX_7Seg_top view verilog as top level
+@N:<a href="@N:NF107:@XP_HELP">NF107</a> : <a href="F:\go_board\projects\UART\hdl\UART_RX_7Seg_Top.v:1:7:1:23:@N:NF107:@XP_MSG">UART_RX_7Seg_Top.v(1)</a><!@TM:1597862756> | Selected library: work cell: UART_RX_7Seg_top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Aug 19 11:45:56 2020
+
+###########################################################]
+Pre-mapping Report
+
+# Wed Aug 19 11:45:56 2020
+
+<a name=mapperReport5></a>Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: F:\go_board\projects\Go_Board_Clock_Constraint.sdc
+Linked File: <a href="F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\UAR_RX_scck.rpt:@XP_FILE">UAR_RX_scck.rpt</a>
+Printing clock  summary report in "F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\UAR_RX_scck.rpt" file 
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1597862757> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1597862757> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+@N:<a href="@N:BN362:@XP_HELP">BN362</a> : <a href="f:\go_board\projects\uart\hdl\uart_rx.v:31:1:31:7:@N:BN362:@XP_MSG">uart_rx.v(31)</a><!@TM:1597862757> | Removing sequential instance r_RX_DV (in view: work.UART_RX_217s_0_1_2_3_4(verilog)) of type view:PrimLib.sdffre(prim) because it does not drive other instances.
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist UART_RX_7Seg_top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+
+<a name=mapperReport6></a>Clock Summary</a>
+*****************
+
+Start     Requested     Requested     Clock        Clock                Clock
+Clock     Frequency     Period        Type         Group                Load 
+-----------------------------------------------------------------------------
+i_Clk     25.0 MHz      40.000        declared     default_clkgroup     22   
+=============================================================================
+
+Finished Pre Mapping Phase.
+@N:<a href="@N:BN225:@XP_HELP">BN225</a> : <!@TM:1597862757> | Writing default property annotation file F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\UAR_RX.sap. 
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 47MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 19 11:45:57 2020
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Aug 19 11:45:57 2020
+
+<a name=mapperReport7></a>Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39</a>
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N:<a href="@N:MF248:@XP_HELP">MF248</a> : <!@TM:1597862758> | Running in 64-bit mode. 
+@N:<a href="@N:MF666:@XP_HELP">MF666</a> : <!@TM:1597862758> | Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.) 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N:<a href="@N:MT204:@XP_HELP">MT204</a> : <!@TM:1597862758> | Auto Constrain mode is disabled because clocks are defined in the SDC file 
+
+            i_Clk
+
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="f:\go_board\projects\uart\hdl\display_7_seg.v:16:2:16:6:@W:FA239:@XP_MSG">display_7_seg.v(16)</a><!@TM:1597862758> | ROM seg_2_inst.r_Hex_Encoding[6:0] (in view: work.UART_RX_7Seg_top(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="f:\go_board\projects\uart\hdl\display_7_seg.v:16:2:16:6:@W:FA239:@XP_MSG">display_7_seg.v(16)</a><!@TM:1597862758> | ROM seg_1_inst.r_Hex_Encoding[6:0] (in view: work.UART_RX_7Seg_top(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="f:\go_board\projects\uart\hdl\display_7_seg.v:16:2:16:6:@W:FA239:@XP_MSG">display_7_seg.v(16)</a><!@TM:1597862758> | ROM seg_2_inst.r_Hex_Encoding[6:0] (in view: work.UART_RX_7Seg_top(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="f:\go_board\projects\uart\hdl\display_7_seg.v:16:2:16:6:@N:MO106:@XP_MSG">display_7_seg.v(16)</a><!@TM:1597862758> | Found ROM .delname. (in view: work.UART_RX_7Seg_top(verilog)) with 16 words by 7 bits.
+<font color=#A52A2A>@W:<a href="@W:FA239:@XP_HELP">FA239</a> : <a href="f:\go_board\projects\uart\hdl\display_7_seg.v:16:2:16:6:@W:FA239:@XP_MSG">display_7_seg.v(16)</a><!@TM:1597862758> | ROM seg_1_inst.r_Hex_Encoding[6:0] (in view: work.UART_RX_7Seg_top(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.</font>
+@N:<a href="@N:MO106:@XP_HELP">MO106</a> : <a href="f:\go_board\projects\uart\hdl\display_7_seg.v:16:2:16:6:@N:MO106:@XP_MSG">display_7_seg.v(16)</a><!@TM:1597862758> | Found ROM .delname. (in view: work.UART_RX_7Seg_top(verilog)) with 16 words by 7 bits.
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="f:\go_board\projects\uart\hdl\uart_rx.v:31:1:31:7:@W:FX1039:@XP_MSG">uart_rx.v(31)</a><!@TM:1597862758> | User-specified initial value defined for instance uart_inst.r_Clock_Count[7:0] is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="f:\go_board\projects\uart\hdl\uart_rx.v:31:1:31:7:@W:FX1039:@XP_MSG">uart_rx.v(31)</a><!@TM:1597862758> | User-specified initial value defined for instance uart_inst.r_SM_Main[2:0] is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="f:\go_board\projects\uart\hdl\uart_rx.v:31:1:31:7:@W:FX1039:@XP_MSG">uart_rx.v(31)</a><!@TM:1597862758> | User-specified initial value defined for instance uart_inst.r_Bit_Index[2:0] is being ignored. </font>
+<font color=#A52A2A>@W:<a href="@W:FX1039:@XP_HELP">FX1039</a> : <a href="f:\go_board\projects\uart\hdl\uart_rx.v:31:1:31:7:@W:FX1039:@XP_MSG">uart_rx.v(31)</a><!@TM:1597862758> | User-specified initial value defined for instance uart_inst.r_RX_Byte[7:0] is being ignored. </font>
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 133MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 133MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 133MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    30.86ns		  64 /        22
+@N:<a href="@N:FX1016:@XP_HELP">FX1016</a> : <a href="f:\go_board\projects\uart\hdl\uart_rx_7seg_top.v:4:8:4:13:@N:FX1016:@XP_MSG">uart_rx_7seg_top.v(4)</a><!@TM:1597862758> | SB_GB_IO inserted on the port i_Clk.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+<a name=clockReport8></a>#### START OF CLOCK OPTIMIZATION REPORT #####[</a>
+
+1 non-gated/non-generated clock tree(s) driving 22 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+================================ Non-Gated/Non-Generated Clocks =================================
+Clock Tree ID     Driving Element      Drive Element Type     Fanout     Sample Instance         
+-------------------------------------------------------------------------------------------------
+<a href="@|S:i_Clk_ibuf_gb_io@|E:uart_inst.r_Bit_Index[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001  @XP_NAMES_BY_PROP">ClockId0001 </a>       i_Clk_ibuf_gb_io     SB_GB_IO               22         uart_inst.r_Bit_Index[0]
+=================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 135MB)
+
+Writing Analyst data base F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\synwork\UAR_RX_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 135MB)
+
+Writing EDIF Netlist and constraint files
+@N:<a href="@N:BW103:@XP_HELP">BW103</a> : <!@TM:1597862758> | The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns. 
+@N:<a href="@N:BW107:@XP_HELP">BW107</a> : <!@TM:1597862758> | Synopsys Constraint File capacitance units using default value of 1pF  
+@N:<a href="@N:FX1056:@XP_HELP">FX1056</a> : <!@TM:1597862758> | Writing EDF file: F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\UAR_RX.edf 
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+@N:<a href="@N:MT615:@XP_HELP">MT615</a> : <!@TM:1597862758> | Found clock i_Clk with period 40.00ns  
+
+
+<a name=timingReport9></a>##### START OF TIMING REPORT #####[</a>
+# Timing Report written on Wed Aug 19 11:45:58 2020
+#
+
+
+Top view:               UART_RX_7Seg_top
+Requested Frequency:    25.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    F:\go_board\projects\Go_Board_Clock_Constraint.sdc
+                       
+@N:<a href="@N:MT320:@XP_HELP">MT320</a> : <!@TM:1597862758> | This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report. 
+
+@N:<a href="@N:MT322:@XP_HELP">MT322</a> : <!@TM:1597862758> | Clock constraints include only register-to-register paths associated with each individual clock. 
+
+
+
+<a name=performanceSummary10></a>Performance Summary</a>
+*******************
+
+
+Worst slack in design: 27.837
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group           
+-------------------------------------------------------------------------------------------------------------------
+i_Clk              25.0 MHz      82.2 MHz      40.000        12.163        27.837     declared     default_clkgroup
+===================================================================================================================
+
+
+
+
+
+<a name=clockRelationships11></a>Clock Relationships</a>
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+i_Clk     i_Clk   |  40.000      27.837  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+<a name=interfaceInfo12></a>Interface Information </a>
+*********************
+
+No IO constraint found
+
+
+
+====================================
+<a name=clockReport13></a>Detailed Report for Clock: i_Clk</a>
+====================================
+
+
+
+<a name=startingSlack14></a>Starting Points with Worst Slack</a>
+********************************
+
+                               Starting                                                Arrival           
+Instance                       Reference     Type         Pin     Net                  Time        Slack 
+                               Clock                                                                     
+---------------------------------------------------------------------------------------------------------
+uart_inst.r_Clock_Count[2]     i_Clk         SB_DFFSR     Q       r_Clock_Count[2]     0.540       27.837
+uart_inst.r_Clock_Count[3]     i_Clk         SB_DFFSR     Q       r_Clock_Count[3]     0.540       27.886
+uart_inst.r_Clock_Count[4]     i_Clk         SB_DFFSR     Q       r_Clock_Count[4]     0.540       27.907
+uart_inst.r_Clock_Count[5]     i_Clk         SB_DFFSR     Q       r_Clock_Count[5]     0.540       28.668
+uart_inst.r_Clock_Count[6]     i_Clk         SB_DFFSR     Q       r_Clock_Count[6]     0.540       29.727
+uart_inst.r_Clock_Count[7]     i_Clk         SB_DFFSR     Q       r_Clock_Count[7]     0.540       29.790
+uart_inst.r_SM_Main[0]         i_Clk         SB_DFF       Q       r_SM_Main[0]         0.540       31.525
+uart_inst.r_SM_Main[1]         i_Clk         SB_DFF       Q       r_SM_Main[1]         0.540       31.546
+uart_inst.r_SM_Main[2]         i_Clk         SB_DFF       Q       r_SM_Main[2]         0.540       31.610
+uart_inst.r_Bit_Index[0]       i_Clk         SB_DFF       Q       r_Bit_Index[0]       0.540       32.392
+=========================================================================================================
+
+
+<a name=endingSlack15></a>Ending Points with Worst Slack</a>
+******************************
+
+                               Starting                                                     Required           
+Instance                       Reference     Type         Pin     Net                       Time         Slack 
+                               Clock                                                                           
+---------------------------------------------------------------------------------------------------------------
+uart_inst.r_Clock_Count[7]     i_Clk         SB_DFFSR     D       r_Clock_Count_RNO[7]      39.895       27.837
+uart_inst.r_Clock_Count[6]     i_Clk         SB_DFFSR     D       r_Clock_Count_RNO[6]      39.895       27.977
+uart_inst.r_Clock_Count[5]     i_Clk         SB_DFFSR     D       r_Clock_Count_RNO[5]      39.895       28.117
+uart_inst.r_Clock_Count[4]     i_Clk         SB_DFFSR     D       r_Clock_Count_RNO[4]      39.895       28.257
+uart_inst.r_Clock_Count[3]     i_Clk         SB_DFFSR     D       r_Clock_Count_RNO[3]      39.895       28.398
+uart_inst.r_Clock_Count[2]     i_Clk         SB_DFFSR     D       r_Clock_Count_RNO[2]      39.895       28.538
+uart_inst.r_Bit_Index[2]       i_Clk         SB_DFF       D       r_Bit_Index_1             39.895       28.633
+uart_inst.r_Clock_Count[1]     i_Clk         SB_DFFSR     D       r_Clock_Count_RNO[1]      39.895       28.678
+uart_inst.r_Clock_Count[0]     i_Clk         SB_DFFSR     R       r_SM_Main_RNIHCJP3[2]     39.895       28.689
+uart_inst.r_Clock_Count[1]     i_Clk         SB_DFFSR     R       r_SM_Main_RNIHCJP3[2]     39.895       28.689
+===============================================================================================================
+
+
+
+<a name=worstPaths16></a>Worst Path Information</a>
+<a href="F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\UAR_RX.srr:srsfF:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\UAR_RX.srs:fp:22628:26684:@XP_NAMES_GATE">View Worst Path in Analyst</a>
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      40.000
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         39.895
+
+    - Propagation time:                      12.058
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     27.837
+
+    Number of logic level(s):                12
+    Starting point:                          uart_inst.r_Clock_Count[2] / Q
+    Ending point:                            uart_inst.r_Clock_Count[7] / D
+    The start point is clocked by            i_Clk [rising] on pin C
+    The end   point is clocked by            i_Clk [rising] on pin C
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                    Type         Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+uart_inst.r_Clock_Count[2]              SB_DFFSR     Q        Out     0.540     0.540       -         
+r_Clock_Count[2]                        Net          -        -       1.599     -           3         
+uart_inst.r_Clock_Count_RNI5QDG[2]      SB_LUT4      I0       In      -         2.139       -         
+uart_inst.r_Clock_Count_RNI5QDG[2]      SB_LUT4      O        Out     0.449     2.588       -         
+r_Clock_Count14lt6                      Net          -        -       1.371     -           1         
+uart_inst.r_Clock_Count_RNIJTR01[5]     SB_LUT4      I0       In      -         3.959       -         
+uart_inst.r_Clock_Count_RNIJTR01[5]     SB_LUT4      O        Out     0.449     4.408       -         
+r_Clock_Count14                         Net          -        -       1.371     -           3         
+uart_inst.r_SM_Main_RNI2A9K1[0]         SB_LUT4      I0       In      -         5.779       -         
+uart_inst.r_SM_Main_RNI2A9K1[0]         SB_LUT4      O        Out     0.449     6.227       -         
+r_Clock_Count_0_sqmuxa                  Net          -        -       1.371     -           2         
+uart_inst.r_SM_Main_RNIA9KS2[2]         SB_LUT4      I2       In      -         7.598       -         
+uart_inst.r_SM_Main_RNIA9KS2[2]         SB_LUT4      O        Out     0.379     7.977       -         
+un1_r_Clock_Count_0_sqmuxa_0_i          Net          -        -       0.905     -           2         
+uart_inst.un1_r_Clock_Count_cry_0_c     SB_CARRY     CI       In      -         8.882       -         
+uart_inst.un1_r_Clock_Count_cry_0_c     SB_CARRY     CO       Out     0.126     9.008       -         
+un1_r_Clock_Count_cry_0                 Net          -        -       0.014     -           2         
+uart_inst.un1_r_Clock_Count_cry_1_c     SB_CARRY     CI       In      -         9.022       -         
+uart_inst.un1_r_Clock_Count_cry_1_c     SB_CARRY     CO       Out     0.126     9.149       -         
+un1_r_Clock_Count_cry_1                 Net          -        -       0.014     -           2         
+uart_inst.un1_r_Clock_Count_cry_2_c     SB_CARRY     CI       In      -         9.162       -         
+uart_inst.un1_r_Clock_Count_cry_2_c     SB_CARRY     CO       Out     0.126     9.289       -         
+un1_r_Clock_Count_cry_2                 Net          -        -       0.014     -           2         
+uart_inst.un1_r_Clock_Count_cry_3_c     SB_CARRY     CI       In      -         9.303       -         
+uart_inst.un1_r_Clock_Count_cry_3_c     SB_CARRY     CO       Out     0.126     9.429       -         
+un1_r_Clock_Count_cry_3                 Net          -        -       0.014     -           2         
+uart_inst.un1_r_Clock_Count_cry_4_c     SB_CARRY     CI       In      -         9.443       -         
+uart_inst.un1_r_Clock_Count_cry_4_c     SB_CARRY     CO       Out     0.126     9.569       -         
+un1_r_Clock_Count_cry_4                 Net          -        -       0.014     -           2         
+uart_inst.un1_r_Clock_Count_cry_5_c     SB_CARRY     CI       In      -         9.583       -         
+uart_inst.un1_r_Clock_Count_cry_5_c     SB_CARRY     CO       Out     0.126     9.709       -         
+un1_r_Clock_Count_cry_5                 Net          -        -       0.014     -           2         
+uart_inst.un1_r_Clock_Count_cry_6_c     SB_CARRY     CI       In      -         9.723       -         
+uart_inst.un1_r_Clock_Count_cry_6_c     SB_CARRY     CO       Out     0.126     9.850       -         
+un1_r_Clock_Count_cry_6                 Net          -        -       0.386     -           1         
+uart_inst.r_Clock_Count_RNO[7]          SB_LUT4      I3       In      -         10.236      -         
+uart_inst.r_Clock_Count_RNO[7]          SB_LUT4      O        Out     0.316     10.551      -         
+r_Clock_Count_RNO[7]                    Net          -        -       1.507     -           1         
+uart_inst.r_Clock_Count[7]              SB_DFFSR     D        In      -         12.058      -         
+======================================================================================================
+Total path delay (propagation time + setup) of 12.163 is 3.569(29.3%) logic and 8.594(70.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 135MB)
+
+---------------------------------------
+<a name=resourceUsage17></a>Resource Usage Report for UART_RX_7Seg_top </a>
+
+Mapping to part: ice40hx1kvq100
+Cell usage:
+GND             3 uses
+SB_CARRY        7 uses
+SB_DFF          14 uses
+SB_DFFSR        8 uses
+VCC             3 uses
+SB_LUT4         62 uses
+
+I/O ports: 16
+I/O primitives: 16
+SB_GB_IO       1 use
+SB_IO          15 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   22 (1%)
+Total load per clock:
+   i_Clk: 1
+
+@S |Mapping Summary:
+Total  LUTs: 62 (4%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 62 = 62 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 27MB peak: 135MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Aug 19 11:45:58 2020
+
+###########################################################]
+
+</pre></samp></body></html>

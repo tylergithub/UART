@@ -1,0 +1,10 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"F:\go_board\projects\UART\hdl\UART_RX.v":9:7:9:13|Synthesizing module UART_RX in library work.
+@N: CG364 :"F:\go_board\projects\UART\hdl\Display_7_Seg.v":2:7:2:19|Synthesizing module Display_7_Seg in library work.
+@N: CG364 :"F:\go_board\projects\UART\hdl\UART_RX_7Seg_Top.v":1:7:1:22|Synthesizing module UART_RX_7Seg_top in library work.
+@N: CL201 :"F:\go_board\projects\UART\hdl\UART_RX.v":31:1:31:6|Trying to extract state machine for register r_SM_Main.
+@N|Running in 64-bit mode
+@N: NF107 :"F:\go_board\projects\UART\hdl\UART_RX_7Seg_Top.v":1:7:1:22|Selected library: work cell: UART_RX_7Seg_top view verilog as top level
+@N: NF107 :"F:\go_board\projects\UART\hdl\UART_RX_7Seg_Top.v":1:7:1:22|Selected library: work cell: UART_RX_7Seg_top view verilog as top level
+

@@ -1,0 +1,80 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX1KVQ100 (Lattice)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   UART_RX_7Seg_top   ########
+================================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     22                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block UART_RX_7Seg_top:	22 (19.13 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       62                 100 %                
+CARRYS     7                  100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block UART_RX_7Seg_top:	69 (60.00 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     16                 100 %                
+=================================================
+Total IO PADS in the block UART_RX_7Seg_top:	16 (13.91 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   Display_7_Seg   ########
+Instance path:   UART_RX_7Seg_top.Display_7_Seg                    
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     7                  11.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block UART_RX_7Seg_top.Display_7_Seg:	7 (6.09 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   Display_7_Seg_0   ########
+Instance path:   UART_RX_7Seg_top.Display_7_Seg_0                    
+=====================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     7                  11.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block UART_RX_7Seg_top.Display_7_Seg_0:	7 (6.09 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_RX_217s_0_1_2_3_4   ########
+Instance path:   UART_RX_7Seg_top.UART_RX_217s_0_1_2_3_4                    
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     22                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block UART_RX_7Seg_top.UART_RX_217s_0_1_2_3_4:	22 (19.13 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       48                 77.4 %               
+CARRYS     7                  100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block UART_RX_7Seg_top.UART_RX_217s_0_1_2_3_4:	55 (47.83 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

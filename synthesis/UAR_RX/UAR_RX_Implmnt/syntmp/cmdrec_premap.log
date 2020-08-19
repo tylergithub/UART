@@ -1,0 +1,14 @@
+C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt   -part iCE40HX1K  -package VQ100    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\synlog\report\UAR_RX_premap.xml  -oedif  F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\UAR_RX.edf  -conchk_prepass  F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\UAR_RX_cck.rpt   -autoconstraint  -freq 1.000   -tcl  F:\go_board\projects\Go_Board_Clock_Constraint.sdc  F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\synwork\UAR_RX_mult.srs  -flow prepass  -gcc_prepass  -osrd  F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\synwork\UAR_RX_prem.srd  -qsap  F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\UAR_RX.sap  -devicelib  C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v  -ologparam  F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\syntmp\UAR_RX.plg  -osyn  F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\synwork\UAR_RX_prem.srd  -prjdir  F:\go_board\projects\UART\synthesis\UAR_RX\  -prjname  UAR_RX_syn  -log  F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\synlog\UAR_RX_premap.srr 
+rc:0 success:1 runtime:1
+file:F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\UAR_RX.edf|io:o|time:0|size:0|exec:0
+file:F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\UAR_RX_cck.rpt|io:o|time:1597862757|size:2373|exec:0
+file:F:\go_board\projects\Go_Board_Clock_Constraint.sdc|io:i|time:1595830738|size:356|exec:0
+file:F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\synwork\UAR_RX_mult.srs|io:i|time:1597862756|size:3141|exec:0
+file:F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\synwork\UAR_RX_prem.srd|io:o|time:1597862757|size:8360|exec:0
+file:F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\UAR_RX.sap|io:o|time:1597862757|size:598|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v|io:i|time:1595544909|size:224837|exec:0
+file:F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\syntmp\UAR_RX.plg|io:o|time:1597862756|size:0|exec:0
+file:F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\synwork\UAR_RX_prem.srd|io:o|time:1597862757|size:8360|exec:0
+file:F:\go_board\projects\UART\synthesis\UAR_RX\UAR_RX_Implmnt\synlog\UAR_RX_premap.srr|io:o|time:1597862757|size:3348|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin\m_generic.exe|io:i|time:1595544906|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe|io:i|time:1595544908|size:32355840|exec:1
