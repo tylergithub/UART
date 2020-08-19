@@ -1,0 +1,109 @@
+set_location IN_MUX_bfv_4_12_0_ 4 12 0 #ICE_CARRY_IN_MUX
+set_location uart_inst.r_RX_Byte[4] 6 13 3 #SB_DFF
+set_location uart_inst.r_SM_Main[1] 6 13 1 #SB_DFF
+set_location uart_inst.r_Clock_Count[4] 4 12 4 #SB_DFFSR
+set_location uart_inst.un1_r_Clock_Count_cry_1_c 4 12 1 #SB_CARRY
+set_location uart_inst.r_RX_Byte_RNO[7] 4 13 0 #SB_LUT4
+set_location seg_2_inst.r_Hex_Encoding_6_0_.m26 2 16 1 #SB_LUT4
+set_location uart_inst.r_SM_Main_RNIFCDJ_0[0] 6 13 2 #SB_LUT4
+set_location uart_inst.r_SM_Main_RNIA9KS2[2] 5 12 4 #SB_LUT4
+set_location uart_inst.r_SM_Main_RNIA9KS2_0[2] 5 13 0 #SB_LUT4
+set_location uart_inst.r_RX_Byte[1] 5 14 2 #SB_DFF
+set_location seg_2_inst.r_Hex_Encoding_6_0_.m14 4 16 0 #SB_LUT4
+set_location uart_inst.r_Clock_Count_RNO[3] 4 12 3 #SB_LUT4
+set_location uart_inst.r_Clock_Count_RNI8TDG[3] 5 13 3 #SB_LUT4
+set_location uart_inst.r_Clock_Count[3] 4 12 3 #SB_DFFSR
+set_location uart_inst.r_Bit_Index[2] 5 14 7 #SB_DFF
+set_location uart_inst.r_RX_Byte_RNO_0[2] 4 14 2 #SB_LUT4
+set_location uart_inst.r_Clock_Count_RNI5QDG[2] 5 12 1 #SB_LUT4
+set_location uart_inst.r_Bit_Index_RNO_0[2] 5 14 6 #SB_LUT4
+set_location seg_2_inst.r_Hex_Encoding_6_0_.m23 2 16 2 #SB_LUT4
+set_location uart_inst.un1_r_Clock_Count_cry_0_c 4 12 0 #SB_CARRY
+set_location uart_inst.r_RX_Byte_RNO[3] 4 14 1 #SB_LUT4
+set_location uart_inst.r_Bit_Index_RNO[0] 5 13 6 #SB_LUT4
+set_location uart_inst.r_RX_Byte[5] 5 14 4 #SB_DFF
+set_location seg_2_inst.r_Hex_Encoding_6_0_.m10 2 14 2 #SB_LUT4
+set_location uart_inst.r_SM_Main[0] 4 13 3 #SB_DFF
+set_location uart_inst.r_Clock_Count_RNO[7] 4 12 7 #SB_LUT4
+set_location uart_inst.r_Clock_Count[7] 4 12 7 #SB_DFFSR
+set_location uart_inst.r_SM_Main_cnst_1_0_.m7_ns_1 4 13 1 #SB_LUT4
+set_location uart_inst.r_RX_Byte_RNO[4] 6 13 3 #SB_LUT4
+set_location uart_inst.r_RX_Byte_RNO_0[6] 4 14 7 #SB_LUT4
+set_location uart_inst.un1_r_Clock_Count_cry_2_c 4 12 2 #SB_CARRY
+set_location uart_inst.r_SM_Main_RNIC2QE1[0] 5 13 5 #SB_LUT4
+set_location uart_inst.r_RX_Byte[2] 4 14 3 #SB_DFF
+set_location seg_2_inst.r_Hex_Encoding_6_0_.m17 4 16 7 #SB_LUT4
+set_location seg_1_inst.r_Hex_Encoding_6_0_.m20 5 15 1 #SB_LUT4
+set_location uart_inst.r_Clock_Count_RNO[2] 4 12 2 #SB_LUT4
+set_location uart_inst.r_Clock_Count[2] 4 12 2 #SB_DFFSR
+set_location uart_inst.r_Bit_Index[1] 5 14 0 #SB_DFF
+set_location seg_1_inst.r_Hex_Encoding_6_0_.m17 6 15 7 #SB_LUT4
+set_location uart_inst.r_SM_Main_RNI2A9K1[0] 5 12 3 #SB_LUT4
+set_location uart_inst.r_RX_Byte_RNO_0[1] 5 14 1 #SB_LUT4
+set_location uart_inst.un1_r_Clock_Count_cry_3_c 4 12 3 #SB_CARRY
+set_location uart_inst.r_SM_Main_RNO[2] 6 13 6 #SB_LUT4
+set_location uart_inst.r_SM_Main_RNI1UFM[0] 5 13 2 #SB_LUT4
+set_location uart_inst.r_RX_Byte_RNO[0] 4 14 5 #SB_LUT4
+set_location uart_inst.r_Clock_Count_RNO[4] 4 12 4 #SB_LUT4
+set_location uart_inst.r_Clock_Count_RNITLCR[7] 5 13 4 #SB_LUT4
+set_location uart_inst.r_Clock_Count[0] 4 12 0 #SB_DFFSR
+set_location uart_inst.r_RX_Byte_RNO_0[3] 4 14 0 #SB_LUT4
+set_location uart_inst.r_RX_Byte[6] 4 13 7 #SB_DFF
+set_location uart_inst.un1_r_Clock_Count_cry_5_c 4 12 5 #SB_CARRY
+set_location uart_inst.un1_r_Clock_Count_cry_4_c 4 12 4 #SB_CARRY
+set_location uart_inst.r_SM_Main_cnst_1_0_.m9 6 13 0 #SB_LUT4
+set_location uart_inst.r_SM_Main_RNO[0] 4 13 3 #SB_LUT4
+set_location uart_inst.r_RX_Byte_RNO[2] 4 14 3 #SB_LUT4
+set_location uart_inst.r_Clock_Count_RNO[6] 4 12 6 #SB_LUT4
+set_location uart_inst.r_Clock_Count[6] 4 12 6 #SB_DFFSR
+set_location uart_inst.r_Bit_Index_RNO[1] 5 14 0 #SB_LUT4
+set_location seg_2_inst.r_Hex_Encoding_6_0_.m5 4 16 6 #SB_LUT4
+set_location uart_inst.r_RX_Byte_RNO[5] 5 14 4 #SB_LUT4
+set_location uart_inst.r_RX_Byte_RNO_0[5] 5 14 3 #SB_LUT4
+set_location seg_2_inst.r_Hex_Encoding_6_0_.m20 4 16 2 #SB_LUT4
+set_location uart_inst.r_RX_Byte[3] 4 14 1 #SB_DFF
+set_location seg_1_inst.r_Hex_Encoding_6_0_.m23 1 13 5 #SB_LUT4
+set_location uart_inst.r_SM_Main_RNIHCJP3[2] 5 13 1 #SB_LUT4
+set_location uart_inst.r_Clock_Count_RNO[1] 4 12 1 #SB_LUT4
+set_location uart_inst.r_Bit_Index[0] 5 13 6 #SB_DFF
+set_location seg_1_inst.r_Hex_Encoding_6_0_.m10 1 14 6 #SB_LUT4
+set_location uart_inst.un1_r_Clock_Count_cry_6_c 4 12 6 #SB_CARRY
+set_location uart_inst.r_RX_Byte_RNO_0[0] 4 14 4 #SB_LUT4
+set_location GND -1 -1 -1 #GND
+set_location uart_inst.r_RX_Byte_RNO[1] 5 14 2 #SB_LUT4
+set_location uart_inst.r_Bit_Index_RNO[2] 5 14 7 #SB_LUT4
+set_location seg_1_inst.r_Hex_Encoding_6_0_.m26 1 13 7 #SB_LUT4
+set_location uart_inst.r_SM_Main_RNI6TA81[0] 6 13 7 #SB_LUT4
+set_location uart_inst.r_RX_Byte[7] 4 13 0 #SB_DFF
+set_location uart_inst.r_Clock_Count_RNO[5] 4 12 5 #SB_LUT4
+set_location uart_inst.r_Clock_Count[1] 4 12 1 #SB_DFFSR
+set_location seg_1_inst.r_Hex_Encoding_6_0_.m5 1 14 1 #SB_LUT4
+set_location seg_1_inst.r_Hex_Encoding_6_0_.m14 6 15 3 #SB_LUT4
+set_location uart_inst.r_RX_Byte_RNO_0[4] 5 14 5 #SB_LUT4
+set_location uart_inst.r_Bit_Index_RNI59LQ[2] 4 14 6 #SB_LUT4
+set_location uart_inst.r_SM_Main_RNO[1] 6 13 1 #SB_LUT4
+set_location uart_inst.r_SM_Main_RNIFCDJ[0] 6 13 5 #SB_LUT4
+set_location uart_inst.r_Clock_Count_RNO[0] 4 12 0 #SB_LUT4
+set_location uart_inst.r_Clock_Count_RNILOUA[7] 5 13 7 #SB_LUT4
+set_location uart_inst.r_SM_Main[2] 6 13 6 #SB_DFF
+set_location uart_inst.r_Clock_Count[5] 4 12 5 #SB_DFFSR
+set_location uart_inst.r_SM_Main_cnst_1_0_.m7_ns 4 13 2 #SB_LUT4
+set_location uart_inst.r_RX_Byte_RNO[6] 4 13 7 #SB_LUT4
+set_location uart_inst.r_Clock_Count_RNIJTR01[5] 5 12 2 #SB_LUT4
+set_location uart_inst.r_RX_Byte[0] 4 14 5 #SB_DFF
+set_io o_Segment2_D 95
+set_io o_Segment1_F 1
+set_io o_Segment1_B 4
+set_io i_Clk 15
+set_io o_Segment2_G 96
+set_io o_Segment2_C 97
+set_io o_Segment1_G 2
+set_io o_Segment1_C 93
+set_io i_UART_RX 73
+set_io o_Segment2_F 8
+set_io o_Segment2_B 99
+set_io o_Segment1_D 91
+set_io o_Segment2_E 94
+set_io o_Segment2_A 100
+set_io o_Segment1_E 90
+set_io o_Segment1_A 3
