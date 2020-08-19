@@ -19,3 +19,7 @@ UART Receiver data flow:
 Simulation result:
 
 ![Image of Yaktocat](https://github.com/tylergithub/UART/blob/master/UART_RX_simulation.PNG)
+
+Demonstration of receiving "N" from keyboard using this UART code:
+
+![Image of Yaktocat](https://github.com/tylergithub/UART/blob/master/UART_impl.jpg)
